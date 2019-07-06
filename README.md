@@ -2,4 +2,4 @@
 
 A colour scheme.
 
-<img width="1100" src="./swatch.svg">
+<img src="./swatch.svg">
