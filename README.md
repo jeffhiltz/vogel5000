@@ -2,4 +2,4 @@
 
 A colour scheme.
 
-![Color swatch](./swatch.svg)
+<img width="1100" src="./swatch.svg">
