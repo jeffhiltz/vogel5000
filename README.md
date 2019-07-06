@@ -2,5 +2,5 @@
 
 A colour scheme.
 
-![Color swatch](./xresources-swatch.svg)
-<img src="./xresources-swatch.svg">
+![Color swatch](./swatch.svg)
+<img src="./swatch.svg">
