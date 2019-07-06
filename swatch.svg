@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg id="drawing" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" >
+  <style>
+    .hash {
+      text-anchor: middle;
+    }
+    .name {
+      text-anchor: middle;
+    }
+  </style>
+  <rect width="1100" height="200" fill="#2a1e1d"></rect>
+
+  <g>
+    <rect width="100" height="50" fill="#dfdab7" x="20" y="40"></rect>
+    <text class="name" fill="#dfdab7" x="20" y="40">
+      <tspan dx="50" dy="-10">foreground</tspan>
+    </text>
+    <text class="hash" fill="2a1e1d" x="20" y="40">
+      <tspan dx="50" dy="30">#dfdab7</tspan>
+    </text>
+  </g>
+
+
+</svg>
