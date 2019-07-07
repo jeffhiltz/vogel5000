@@ -29,13 +29,14 @@ const backgroundRect = `
   <rect width="1100" height="200" fill="${xcolors.background}"></rect>
 `
 function swatch(name, colorHash, x, y) {
+  const isBackground = colorHash === xcolors.background
   return `
   <g>
     <rect width="100" height="50" fill="${colorHash}" x="${x}" y="${y}"></rect>
-    <text class="name" fill="${colorHash}" x="${x}" y="${y}">
+    <text class="name" fill="${isBackground ? xcolors.foreground : colorHash}" x="${x}" y="${y}">
       <tspan dx="50" dy="-10">${name}</tspan>
     </text>
-    <text class="hash" fill="${xcolors.background}" x="${x}" y="${y}">
+    <text class="hash" fill="${isBackground ? xcolors.foreground : xcolors.background}" x="${x}" y="${y}">
       <tspan dx="50" dy="30">${colorHash}</tspan>
     </text>
   </g>

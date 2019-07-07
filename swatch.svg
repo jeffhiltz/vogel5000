@@ -104,10 +104,10 @@
 
   <g>
     <rect width="100" height="50" fill="#2a1e1d" x="20" y="130"></rect>
-    <text class="name" fill="#2a1e1d" x="20" y="130">
+    <text class="name" fill="#dfdab7" x="20" y="130">
       <tspan dx="50" dy="-10">background</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="20" y="130">
+    <text class="hash" fill="#dfdab7" x="20" y="130">
       <tspan dx="50" dy="30">#2a1e1d</tspan>
     </text>
   </g>
