@@ -10,185 +10,185 @@
     }
   </style>
 
-  <rect width="1100" height="200" fill="#2a1e1d"></rect>
+  <rect width="1100" height="200" fill="#2C1E1E"></rect>
 
   <g>
-    <rect width="100" height="50" fill="#dfdab7" x="20" y="40"></rect>
-    <text class="name" fill="#dfdab7" x="20" y="40">
+    <rect width="100" height="50" fill="#D8D3B0" x="20" y="40"></rect>
+    <text class="name" fill="#D8D3B0" x="20" y="40">
       <tspan dx="50" dy="-10">foreground</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="20" y="40">
-      <tspan dx="50" dy="30">#dfdab7</tspan>
+    <text class="hash" fill="#2C1E1E" x="20" y="40">
+      <tspan dx="50" dy="30">#D8D3B0</tspan>
     </text>
   </g>
 
   <g>
-    <rect width="100" height="50" fill="#573d25" x="140" y="40"></rect>
-    <text class="name" fill="#573d25" x="140" y="40">
+    <rect width="100" height="50" fill="#553D25" x="140" y="40"></rect>
+    <text class="name" fill="#553D25" x="140" y="40">
       <tspan dx="50" dy="-10">color0</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="140" y="40">
-      <tspan dx="50" dy="30">#573d25</tspan>
+    <text class="hash" fill="#2C1E1E" x="140" y="40">
+      <tspan dx="50" dy="30">#553D25</tspan>
     </text>
   </g>
 
   <g>
-    <rect width="100" height="50" fill="#c33027" x="260" y="40"></rect>
-    <text class="name" fill="#c33027" x="260" y="40">
+    <rect width="100" height="50" fill="#C33027" x="260" y="40"></rect>
+    <text class="name" fill="#C33027" x="260" y="40">
       <tspan dx="50" dy="-10">color1</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="260" y="40">
-      <tspan dx="50" dy="30">#c33027</tspan>
+    <text class="hash" fill="#2C1E1E" x="260" y="40">
+      <tspan dx="50" dy="30">#C33027</tspan>
     </text>
   </g>
 
   <g>
-    <rect width="100" height="50" fill="#6ba08a" x="380" y="40"></rect>
-    <text class="name" fill="#6ba08a" x="380" y="40">
+    <rect width="100" height="50" fill="#67A289" x="380" y="40"></rect>
+    <text class="name" fill="#67A289" x="380" y="40">
       <tspan dx="50" dy="-10">color2</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="380" y="40">
-      <tspan dx="50" dy="30">#6ba08a</tspan>
+    <text class="hash" fill="#2C1E1E" x="380" y="40">
+      <tspan dx="50" dy="30">#67A289</tspan>
     </text>
   </g>
 
   <g>
-    <rect width="100" height="50" fill="#e99c29" x="500" y="40"></rect>
-    <text class="name" fill="#e99c29" x="500" y="40">
+    <rect width="100" height="50" fill="#D28910" x="500" y="40"></rect>
+    <text class="name" fill="#D28910" x="500" y="40">
       <tspan dx="50" dy="-10">color3</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="500" y="40">
-      <tspan dx="50" dy="30">#e99c29</tspan>
+    <text class="hash" fill="#2C1E1E" x="500" y="40">
+      <tspan dx="50" dy="30">#D28910</tspan>
     </text>
   </g>
 
   <g>
-    <rect width="100" height="50" fill="#6298c4" x="620" y="40"></rect>
-    <text class="name" fill="#6298c4" x="620" y="40">
+    <rect width="100" height="50" fill="#5B90BF" x="620" y="40"></rect>
+    <text class="name" fill="#5B90BF" x="620" y="40">
       <tspan dx="50" dy="-10">color4</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="620" y="40">
-      <tspan dx="50" dy="30">#6298c4</tspan>
+    <text class="hash" fill="#2C1E1E" x="620" y="40">
+      <tspan dx="50" dy="30">#5B90BF</tspan>
     </text>
   </g>
 
   <g>
-    <rect width="100" height="50" fill="#ab80a6" x="740" y="40"></rect>
-    <text class="name" fill="#ab80a6" x="740" y="40">
+    <rect width="100" height="50" fill="#A97DA6" x="740" y="40"></rect>
+    <text class="name" fill="#A97DA6" x="740" y="40">
       <tspan dx="50" dy="-10">color5</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="740" y="40">
-      <tspan dx="50" dy="30">#ab80a6</tspan>
+    <text class="hash" fill="#2C1E1E" x="740" y="40">
+      <tspan dx="50" dy="30">#A97DA6</tspan>
     </text>
   </g>
 
   <g>
-    <rect width="100" height="50" fill="#33859d" x="860" y="40"></rect>
-    <text class="name" fill="#33859d" x="860" y="40">
+    <rect width="100" height="50" fill="#267B93" x="860" y="40"></rect>
+    <text class="name" fill="#267B93" x="860" y="40">
       <tspan dx="50" dy="-10">color6</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="860" y="40">
-      <tspan dx="50" dy="30">#33859d</tspan>
+    <text class="hash" fill="#2C1E1E" x="860" y="40">
+      <tspan dx="50" dy="30">#267B93</tspan>
     </text>
   </g>
 
   <g>
-    <rect width="100" height="50" fill="#dfdab7" x="980" y="40"></rect>
-    <text class="name" fill="#dfdab7" x="980" y="40">
+    <rect width="100" height="50" fill="#D8D3B0" x="980" y="40"></rect>
+    <text class="name" fill="#D8D3B0" x="980" y="40">
       <tspan dx="50" dy="-10">color7</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="980" y="40">
-      <tspan dx="50" dy="30">#dfdab7</tspan>
+    <text class="hash" fill="#2C1E1E" x="980" y="40">
+      <tspan dx="50" dy="30">#D8D3B0</tspan>
     </text>
   </g>
 
   <g>
-    <rect width="100" height="50" fill="#2a1e1d" x="20" y="130"></rect>
-    <text class="name" fill="#dfdab7" x="20" y="130">
+    <rect width="100" height="50" fill="#2C1E1E" x="20" y="130"></rect>
+    <text class="name" fill="#D8D3B0" x="20" y="130">
       <tspan dx="50" dy="-10">background</tspan>
     </text>
-    <text class="hash" fill="#dfdab7" x="20" y="130">
-      <tspan dx="50" dy="30">#2a1e1d</tspan>
+    <text class="hash" fill="#D8D3B0" x="20" y="130">
+      <tspan dx="50" dy="30">#2C1E1E</tspan>
     </text>
   </g>
 
   <g>
-    <rect width="100" height="50" fill="#9a6b49" x="140" y="130"></rect>
-    <text class="name" fill="#9a6b49" x="140" y="130">
+    <rect width="100" height="50" fill="#996A49" x="140" y="130"></rect>
+    <text class="name" fill="#996A49" x="140" y="130">
       <tspan dx="50" dy="-10">color8</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="140" y="130">
-      <tspan dx="50" dy="30">#9a6b49</tspan>
+    <text class="hash" fill="#2C1E1E" x="140" y="130">
+      <tspan dx="50" dy="30">#996A49</tspan>
     </text>
   </g>
 
   <g>
-    <rect width="100" height="50" fill="#df5f00" x="260" y="130"></rect>
-    <text class="name" fill="#df5f00" x="260" y="130">
+    <rect width="100" height="50" fill="#E05F01" x="260" y="130"></rect>
+    <text class="name" fill="#E05F01" x="260" y="130">
       <tspan dx="50" dy="-10">color9</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="260" y="130">
-      <tspan dx="50" dy="30">#df5f00</tspan>
+    <text class="hash" fill="#2C1E1E" x="260" y="130">
+      <tspan dx="50" dy="30">#E05F01</tspan>
     </text>
   </g>
 
   <g>
-    <rect width="100" height="50" fill="#94d7ba" x="380" y="130"></rect>
-    <text class="name" fill="#94d7ba" x="380" y="130">
+    <rect width="100" height="50" fill="#96D3B9" x="380" y="130"></rect>
+    <text class="name" fill="#96D3B9" x="380" y="130">
       <tspan dx="50" dy="-10">color10</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="380" y="130">
-      <tspan dx="50" dy="30">#94d7ba</tspan>
+    <text class="hash" fill="#2C1E1E" x="380" y="130">
+      <tspan dx="50" dy="30">#96D3B9</tspan>
     </text>
   </g>
 
   <g>
-    <rect width="100" height="50" fill="#edb54b" x="500" y="130"></rect>
-    <text class="name" fill="#edb54b" x="500" y="130">
+    <rect width="100" height="50" fill="#EDB54B" x="500" y="130"></rect>
+    <text class="name" fill="#EDB54B" x="500" y="130">
       <tspan dx="50" dy="-10">color11</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="500" y="130">
-      <tspan dx="50" dy="30">#edb54b</tspan>
+    <text class="hash" fill="#2C1E1E" x="500" y="130">
+      <tspan dx="50" dy="30">#EDB54B</tspan>
     </text>
   </g>
 
   <g>
-    <rect width="100" height="50" fill="#7ab8eb" x="620" y="130"></rect>
-    <text class="name" fill="#7ab8eb" x="620" y="130">
+    <rect width="100" height="50" fill="#82B5E7" x="620" y="130"></rect>
+    <text class="name" fill="#82B5E7" x="620" y="130">
       <tspan dx="50" dy="-10">color12</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="620" y="130">
-      <tspan dx="50" dy="30">#7ab8eb</tspan>
+    <text class="hash" fill="#2C1E1E" x="620" y="130">
+      <tspan dx="50" dy="30">#82B5E7</tspan>
     </text>
   </g>
 
   <g>
-    <rect width="100" height="50" fill="#d09dca" x="740" y="130"></rect>
-    <text class="name" fill="#d09dca" x="740" y="130">
+    <rect width="100" height="50" fill="#D0A2CC" x="740" y="130"></rect>
+    <text class="name" fill="#D0A2CC" x="740" y="130">
       <tspan dx="50" dy="-10">color13</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="740" y="130">
-      <tspan dx="50" dy="30">#d09dca</tspan>
+    <text class="hash" fill="#2C1E1E" x="740" y="130">
+      <tspan dx="50" dy="30">#D0A2CC</tspan>
     </text>
   </g>
 
   <g>
-    <rect width="100" height="50" fill="#599caa" x="860" y="130"></rect>
-    <text class="name" fill="#599caa" x="860" y="130">
+    <rect width="100" height="50" fill="#5CA0B0" x="860" y="130"></rect>
+    <text class="name" fill="#5CA0B0" x="860" y="130">
       <tspan dx="50" dy="-10">color14</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="860" y="130">
-      <tspan dx="50" dy="30">#599caa</tspan>
+    <text class="hash" fill="#2C1E1E" x="860" y="130">
+      <tspan dx="50" dy="30">#5CA0B0</tspan>
     </text>
   </g>
 
   <g>
-    <rect width="100" height="50" fill="#fff9d4" x="980" y="130"></rect>
-    <text class="name" fill="#fff9d4" x="980" y="130">
+    <rect width="100" height="50" fill="#FFFAD6" x="980" y="130"></rect>
+    <text class="name" fill="#FFFAD6" x="980" y="130">
       <tspan dx="50" dy="-10">color15</tspan>
     </text>
-    <text class="hash" fill="#2a1e1d" x="980" y="130">
-      <tspan dx="50" dy="30">#fff9d4</tspan>
+    <text class="hash" fill="#2C1E1E" x="980" y="130">
+      <tspan dx="50" dy="30">#FFFAD6</tspan>
     </text>
   </g>
 

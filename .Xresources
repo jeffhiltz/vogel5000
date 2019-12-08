@@ -1,39 +1,38 @@
 ! A colourscheme inspired by Joe Bergantine's Birds of Paradise
 
 ! special
-*.foreground:   #dfdab7
-*.background:   #2a1e1d
-*.cursorColor:  #dfdab7
+*.foreground: #D8D3B0
+*.background: #2C1E1E
+*.cursorColor: #D8D3B0
 
 ! black
-*.color0:       #573d25
-*.color8:       #9a6b49
+*.color0:  #553D25
+*.color8:  #996A49
 
 ! red
-*.color1:       #c33027
-*.color9:       #df5f00
+*.color1:  #C33027
+*.color9:  #E05F01
 
 ! green
-*.color2:       #6ba08a
-*.color10:      #94d7ba
+*.color2:  #67A289
+*.color10: #96D3B9
 
 ! yellow
-*.color3:       #e99c29
-*.color11:      #edb54b
+*.color3:  #D28910
+*.color11: #EDB54B
 
 ! blue
-*.color4:       #6298c4
-*.color12:      #7ab8eb
+*.color4:  #5B90BF
+*.color12: #82B5E7
 
 ! magenta
-*.color5:       #ab80a6
-*.color13:      #d09dca
+*.color5:  #A97DA6
+*.color13: #D0A2CC
 
 ! cyan
-*.color6:       #33859d
-*.color14:      #599caa
+*.color6:  #267B93
+*.color14: #5CA0B0
 
 ! white
-*.color7:       #dfdab7
-*.color15:      #fff9d4
-
+*.color7:  #D8D3B0
+*.color15: #FFFAD6
