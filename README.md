@@ -14,25 +14,25 @@ The colours are fairly balanced in terms of their [CIELAB](https://en.wikipedia.
 
 All of the conversions between RGB (hex) and CIELAB values have been performed with the [color-convert](https://github.com/Qix-/color-convert) JavaScript library.
 
-Hex  | Lightness  | a* (G-R)  | b* (B-Y)  | Red  | Green  | Blue
---- | --- | --- | --- | --- | --- | ---
-#2C1E1E  | 13  | 7  | 3  | 44  | 30  | 30
-#553D25  | 28  | 7  | 19  | 85  | 61  | 37
-#996A49  | 49  | 15  | 26  | 153  | 106  | 73
-#C33027  | 44  | 57  | 41  | 195  | 48  | 39
-#E05F01  | 56  | 47  | 65  | 224  | 95  | 1
-#67A289  | 62  | -25  | 7  | 103  | 162  | 137
-#96D3B9  | 80  | -25  | 7  | 150  | 211  | 185
-#D28910  | 63  | 20  | 66  | 210  | 137  | 16
-#EDB54B  | 77  | 10  | 60  | 237  | 181  | 75
-#5B90BF  | 58  | -4  | -30  | 91  | 144  | 191
-#82B5E7  | 72  | -4  | -30  | 130  | 181  | 231
-#A97DA6  | 58  | 24  | -15  | 169  | 125  | 166
-#D0A2CC  | 72  | 24  | -15  | 208  | 162  | 204
-#267B93  | 48  | -17  | -20  | 38  | 123  | 147
-#5CA0B0  | 62  | -17  | -15  | 92  | 160  | 176
-#D8D3B0  | 84  | -4  | 18  | 216  | 211  | 176
-#FFFAD6  | 98  | -4  | 18  | 255  | 250  | 214
+Term Colour | Hex  | Lightness  | a* (G-R)  | b* (B-Y)  | Red  | Green  | Blue
+--- | --- | --- | --- | --- | --- | --- | ---
+background | #2C1E1E  | 13  | 7  | 3  | 44  | 30  | 30
+black | #553D25  | 28  | 7  | 19  | 85  | 61  | 37
+bright black | #996A49  | 49  | 15  | 26  | 153  | 106  | 73
+red | #C33027  | 44  | 57  | 41  | 195  | 48  | 39
+bright red | #E05F01  | 56  | 47  | 65  | 224  | 95  | 1
+green | #67A289  | 62  | -25  | 7  | 103  | 162  | 137
+bright green | #96D3B9  | 80  | -25  | 7  | 150  | 211  | 185
+yellow | #D28910  | 63  | 20  | 66  | 210  | 137  | 16
+bright yellow | #EDB54B  | 77  | 10  | 60  | 237  | 181  | 75
+blue | #5B90BF  | 58  | -4  | -30  | 91  | 144  | 191
+bright blue | #82B5E7  | 72  | -4  | -30  | 130  | 181  | 231
+magenta | #A97DA6  | 58  | 24  | -15  | 169  | 125  | 166
+bright magenta | #D0A2CC  | 72  | 24  | -15  | 208  | 162  | 204
+cyan | #267B93  | 48  | -17  | -20  | 38  | 123  | 147
+bright cyan | #5CA0B0  | 62  | -17  | -15  | 92  | 160  | 176
+white | #D8D3B0  | 84  | -4  | 18  | 216  | 211  | 176
+bright white | #FFFAD6  | 98  | -4  | 18  | 255  | 250  | 214
 
 
 #### Lightness
