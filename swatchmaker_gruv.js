@@ -38,6 +38,11 @@ const style = `
       font-family: sans-serif;
       font-size: ${swatchHeight * 0.2}px;
     }
+    .lab {
+      text-anchor: middle;
+      font-family: sans-serif;
+      font-size: ${swatchHeight * 0.1}px;
+    }
   </style>
 `
 
@@ -45,7 +50,8 @@ function swatch(name, rowIdx, colIdx) {
   const x = colIdx * swatchWidth
   const y = rowIdx * swatchHeight
   const colorHash = colours[name]
-  const textColour = convert.hex.lab(colorHash)[0] < 50 ? colours['grey10'] : colours['grey0']
+  const labValues = convert.hex.lab(colorHash)
+  const textColour = labValues[0] < 50 ? colours['grey10'] : colours['grey0']
   return `
   <g>
     <rect width="${swatchWidth}" height="${swatchHeight}" fill="${colorHash}" x="${x}" y="${y}"></rect>
@@ -54,6 +60,9 @@ function swatch(name, rowIdx, colIdx) {
     </text>
     <text class="hash" fill="${textColour}" x="${x}" y="${y}">
       <tspan dx="${swatchWidth / 2}" dy="${swatchHeight * 0.66}">${colorHash}</tspan>
+    </text>
+    <text class="lab" fill="${textColour}" x="${x}" y="${y}">
+      <tspan dx="${swatchWidth / 2}" dy="${swatchHeight * 0.84}">L:${labValues[0]} a:${labValues[1]} b:${labValues[2]}</tspan>
     </text>
   </g>
 `
