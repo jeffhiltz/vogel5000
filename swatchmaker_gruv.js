@@ -3,7 +3,7 @@ const fs = require('fs')
 const yaml = require('js-yaml');
 
 const inputFile = 'colours.yaml'
-const outputFile = 'swatch_mystyle.svg'
+const outputFile = 'swatch_widestyle.svg'
 
 let colours
 
@@ -20,8 +20,8 @@ try {
 const swatchWidth = 348 / 2
 const swatchHeight = 240 * 0.6
 
-const colCount = 8
-const rowCount = 5
+const colCount = 11
+const rowCount = 6
 
 const top = `<?xml version="1.0" encoding="utf-8" ?>
 <svg id="drawing" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="${swatchWidth * colCount}" height="${swatchHeight * rowCount}">
@@ -44,6 +44,10 @@ const style = `
       font-size: ${swatchHeight * 0.1}px;
     }
   </style>
+`
+
+const backgroundRect = `
+  <rect width="${swatchWidth * colCount}" height="${swatchHeight * rowCount}" fill="black"></rect>
 `
 
 function swatch(name, rowIdx, colIdx) {
@@ -117,6 +121,8 @@ const bottom = `
 
 const darkLayout = [
   [
+    '',
+    '',
     'darkred',
     'darkgreen',
     'darkyellow',
@@ -126,6 +132,8 @@ const darkLayout = [
     'darkorange',
   ],
   [
+    '',
+    '',
     'red',
     'green',
     'yellow',
@@ -135,6 +143,8 @@ const darkLayout = [
     'orange',
   ],
   [
+    '',
+    '',
     'brightred',
     'brightgreen',
     'brightyellow',
@@ -145,22 +155,42 @@ const darkLayout = [
   ],
   [
     'grey0hard',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    'grey10hard',
+  ],
+  [
     'grey0',
-    'grey0soft',
     'grey1',
     'grey2',
     'grey3',
     'grey4',
-  ],
-  [
     'grey5',
     'grey6',
     'grey7',
     'grey8',
     'grey9',
-    'grey10soft',
     'grey10',
-    'grey10hard',
+  ],
+  [
+    'grey0soft',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    'grey10soft',
   ],
 ]
 
@@ -168,10 +198,11 @@ const outFile = fs.createWriteStream(outputFile)
 outFile.on('open', () => {
   outFile.write(top)
   outFile.write(style)
+  outFile.write(backgroundRect)
 
   darkLayout.forEach((row, rowIdx) => {
     row.forEach((label, colIdx) => {
-      outFile.write(swatch(label, rowIdx, colIdx))
+      if (label) outFile.write(swatch(label, rowIdx, colIdx))
     })
   })
 
