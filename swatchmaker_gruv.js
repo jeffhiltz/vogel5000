@@ -3,7 +3,7 @@ const fs = require('fs')
 const yaml = require('js-yaml');
 
 const inputFile = 'colours.yaml'
-const outputFile = 'swatch_widestyle.svg'
+const outputFile = 'swatch36.svg'
 
 const fileContents = yaml.safeLoad(fs.readFileSync(inputFile, 'utf8'))
 const colours = fileContents.vogel5000

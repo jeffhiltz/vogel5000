@@ -46,3 +46,9 @@ This graph shows the relative lightness values.
 This graph shows the relative a* and b* values.  The x-axis shows the a* values (red on the left, green on the right) and the y-axis shows the b* values (blue at the top, yellow at the bottom.)
 
 <img src="./lab_abscatter.png">
+
+## 36 Colour Version
+
+This version uses 36 colours because that's what [gruvbox]() uses.  This way I can take gruvbox themes and map them into being Vogel5000 themes.\
+
+<img src="./swatch36.svg">
