@@ -51,4 +51,9 @@ This graph shows the relative a* and b* values.  The x-axis shows the a* values 
 
 This version uses 36 colours because that's what [gruvbox](https://github.com/morhetz/gruvbox) uses.  This way I can take gruvbox themes and map them into being Vogel5000 themes.
 
+For comparison, here are some swatches laid out in the same way as the gruvbox ones.
+
+<img src="./swatchgruvstyle_dark.svg">
+<img src="./swatchgruvstyle_light.svg">
+
 <img src="./swatch36.svg">

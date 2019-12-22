@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg id="drawing" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1015" height="455">
+
+  <style>
+    .hash {
+      text-anchor: middle;
+      font-family: sans-serif;
+      font-size: 20px;
+    }
+    .name {
+      text-anchor: middle;
+      font-family: sans-serif;
+      font-size: 20px;
+    }
+    .lab {
+      text-anchor: middle;
+      font-family: sans-serif;
+      font-size: 10px;
+    }
+  </style>
+
+  <rect width="1015" height="455" fill="black"></rect>
+
+  <g>
+    <rect width="120" height="100" fill="#faf5d1" x="27.5" y="27.5"></rect>
+    <text class="name" fill="#332424" x="27.5" y="27.5">
+      <tspan dx="60" dy="33">grey10</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="27.5" y="27.5">
+      <tspan dx="60" dy="66">#faf5d1</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="27.5" y="27.5">
+      <tspan dx="60" dy="84">L:96 a:-4 b:18</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#c3302c" x="147.5" y="27.5"></rect>
+    <text class="name" fill="#faf5d1" x="147.5" y="27.5">
+      <tspan dx="60" dy="33">red</tspan>
+    </text>
+    <text class="hash" fill="#faf5d1" x="147.5" y="27.5">
+      <tspan dx="60" dy="66">#c3302c</tspan>
+    </text>
+    <text class="lab" fill="#faf5d1" x="147.5" y="27.5">
+      <tspan dx="60" dy="84">L:44 a:57 b:38</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#629c84" x="267.5" y="27.5"></rect>
+    <text class="name" fill="#332424" x="267.5" y="27.5">
+      <tspan dx="60" dy="33">green</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="267.5" y="27.5">
+      <tspan dx="60" dy="66">#629c84</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="267.5" y="27.5">
+      <tspan dx="60" dy="84">L:60 a:-25 b:7</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#fdae40" x="387.5" y="27.5"></rect>
+    <text class="name" fill="#332424" x="387.5" y="27.5">
+      <tspan dx="60" dy="33">yellow</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="387.5" y="27.5">
+      <tspan dx="60" dy="66">#fdae40</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="387.5" y="27.5">
+      <tspan dx="60" dy="84">L:77 a:20 b:65</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#6195c5" x="507.5" y="27.5"></rect>
+    <text class="name" fill="#332424" x="507.5" y="27.5">
+      <tspan dx="60" dy="33">blue</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="507.5" y="27.5">
+      <tspan dx="60" dy="66">#6195c5</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="507.5" y="27.5">
+      <tspan dx="60" dy="84">L:60 a:-4 b:-30</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#af82ab" x="627.5" y="27.5"></rect>
+    <text class="name" fill="#332424" x="627.5" y="27.5">
+      <tspan dx="60" dy="33">violet</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="627.5" y="27.5">
+      <tspan dx="60" dy="66">#af82ab</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="627.5" y="27.5">
+      <tspan dx="60" dy="84">L:60 a:24 b:-15</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#539aae" x="747.5" y="27.5"></rect>
+    <text class="name" fill="#332424" x="747.5" y="27.5">
+      <tspan dx="60" dy="33">cyan</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="747.5" y="27.5">
+      <tspan dx="60" dy="66">#539aae</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="747.5" y="27.5">
+      <tspan dx="60" dy="84">L:60 a:-17 b:-17</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#7c7066" x="867.5" y="27.5"></rect>
+    <text class="name" fill="#faf5d1" x="867.5" y="27.5">
+      <tspan dx="60" dy="33">grey4</tspan>
+    </text>
+    <text class="hash" fill="#faf5d1" x="867.5" y="27.5">
+      <tspan dx="60" dy="66">#7c7066</tspan>
+    </text>
+    <text class="lab" fill="#faf5d1" x="867.5" y="27.5">
+      <tspan dx="60" dy="84">L:48 a:3 b:7</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#908578" x="27.5" y="127.5"></rect>
+    <text class="name" fill="#332424" x="27.5" y="127.5">
+      <tspan dx="60" dy="33">grey5</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="27.5" y="127.5">
+      <tspan dx="60" dy="66">#908578</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="27.5" y="127.5">
+      <tspan dx="60" dy="84">L:56 a:2 b:8</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#9d0012" x="147.5" y="127.5"></rect>
+    <text class="name" fill="#faf5d1" x="147.5" y="127.5">
+      <tspan dx="60" dy="33">darkred</tspan>
+    </text>
+    <text class="hash" fill="#faf5d1" x="147.5" y="127.5">
+      <tspan dx="60" dy="66">#9d0012</tspan>
+    </text>
+    <text class="lab" fill="#faf5d1" x="147.5" y="127.5">
+      <tspan dx="60" dy="84">L:32 a:56 b:38</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#437d65" x="267.5" y="127.5"></rect>
+    <text class="name" fill="#faf5d1" x="267.5" y="127.5">
+      <tspan dx="60" dy="33">darkgreen</tspan>
+    </text>
+    <text class="hash" fill="#faf5d1" x="267.5" y="127.5">
+      <tspan dx="60" dy="66">#437d65</tspan>
+    </text>
+    <text class="lab" fill="#faf5d1" x="267.5" y="127.5">
+      <tspan dx="60" dy="84">L:48 a:-25 b:7</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#d88e1c" x="387.5" y="127.5"></rect>
+    <text class="name" fill="#332424" x="387.5" y="127.5">
+      <tspan dx="60" dy="33">darkyellow</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="387.5" y="127.5">
+      <tspan dx="60" dy="66">#d88e1c</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="387.5" y="127.5">
+      <tspan dx="60" dy="84">L:65 a:20 b:65</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#3f76a4" x="507.5" y="127.5"></rect>
+    <text class="name" fill="#faf5d1" x="507.5" y="127.5">
+      <tspan dx="60" dy="33">darkblue</tspan>
+    </text>
+    <text class="hash" fill="#faf5d1" x="507.5" y="127.5">
+      <tspan dx="60" dy="66">#3f76a4</tspan>
+    </text>
+    <text class="lab" fill="#faf5d1" x="507.5" y="127.5">
+      <tspan dx="60" dy="84">L:48 a:-4 b:-30</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#8e648c" x="627.5" y="127.5"></rect>
+    <text class="name" fill="#faf5d1" x="627.5" y="127.5">
+      <tspan dx="60" dy="33">darkviolet</tspan>
+    </text>
+    <text class="hash" fill="#faf5d1" x="627.5" y="127.5">
+      <tspan dx="60" dy="66">#8e648c</tspan>
+    </text>
+    <text class="lab" fill="#faf5d1" x="627.5" y="127.5">
+      <tspan dx="60" dy="84">L:48 a:24 b:-15</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#307b8e" x="747.5" y="127.5"></rect>
+    <text class="name" fill="#faf5d1" x="747.5" y="127.5">
+      <tspan dx="60" dy="33">darkcyan</tspan>
+    </text>
+    <text class="hash" fill="#faf5d1" x="747.5" y="127.5">
+      <tspan dx="60" dy="66">#307b8e</tspan>
+    </text>
+    <text class="lab" fill="#faf5d1" x="747.5" y="127.5">
+      <tspan dx="60" dy="84">L:48 a:-17 b:-17</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#443633" x="867.5" y="127.5"></rect>
+    <text class="name" fill="#faf5d1" x="867.5" y="127.5">
+      <tspan dx="60" dy="33">grey1</tspan>
+    </text>
+    <text class="hash" fill="#faf5d1" x="867.5" y="127.5">
+      <tspan dx="60" dy="66">#443633</tspan>
+    </text>
+    <text class="lab" fill="#faf5d1" x="867.5" y="127.5">
+      <tspan dx="60" dy="84">L:24 a:6 b:4</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#fffad4" x="27.5" y="227.5"></rect>
+    <text class="name" fill="#332424" x="27.5" y="227.5">
+      <tspan dx="60" dy="33">grey10hard</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="27.5" y="227.5">
+      <tspan dx="60" dy="66">#fffad4</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="27.5" y="227.5">
+      <tspan dx="60" dy="84">L:98 a:-4 b:19</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#faf5d1" x="147.5" y="227.5"></rect>
+    <text class="name" fill="#332424" x="147.5" y="227.5">
+      <tspan dx="60" dy="33">grey10</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="147.5" y="227.5">
+      <tspan dx="60" dy="66">#faf5d1</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="147.5" y="227.5">
+      <tspan dx="60" dy="84">L:96 a:-4 b:18</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#e4ddbe" x="267.5" y="227.5"></rect>
+    <text class="name" fill="#332424" x="267.5" y="227.5">
+      <tspan dx="60" dy="33">grey9</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="267.5" y="227.5">
+      <tspan dx="60" dy="66">#e4ddbe</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="267.5" y="227.5">
+      <tspan dx="60" dy="84">L:88 a:-3 b:16</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#cdc7ac" x="387.5" y="227.5"></rect>
+    <text class="name" fill="#332424" x="387.5" y="227.5">
+      <tspan dx="60" dy="33">grey8</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="387.5" y="227.5">
+      <tspan dx="60" dy="66">#cdc7ac</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="387.5" y="227.5">
+      <tspan dx="60" dy="84">L:80 a:-2 b:14</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#b8b09b" x="507.5" y="227.5"></rect>
+    <text class="name" fill="#332424" x="507.5" y="227.5">
+      <tspan dx="60" dy="33">grey7</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="507.5" y="227.5">
+      <tspan dx="60" dy="66">#b8b09b</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="507.5" y="227.5">
+      <tspan dx="60" dy="84">L:72 a:-1 b:12</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#a39a89" x="627.5" y="227.5"></rect>
+    <text class="name" fill="#332424" x="627.5" y="227.5">
+      <tspan dx="60" dy="33">grey6</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="627.5" y="227.5">
+      <tspan dx="60" dy="66">#a39a89</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="627.5" y="227.5">
+      <tspan dx="60" dy="84">L:64 a:0 b:10</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#908578" x="747.5" y="227.5"></rect>
+    <text class="name" fill="#332424" x="747.5" y="227.5">
+      <tspan dx="60" dy="33">grey5</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="747.5" y="227.5">
+      <tspan dx="60" dy="66">#908578</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="747.5" y="227.5">
+      <tspan dx="60" dy="84">L:56 a:2 b:8</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#f6711d" x="867.5" y="227.5"></rect>
+    <text class="name" fill="#332424" x="867.5" y="227.5">
+      <tspan dx="60" dy="33">orange</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="867.5" y="227.5">
+      <tspan dx="60" dy="66">#f6711d</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="867.5" y="227.5">
+      <tspan dx="60" dy="84">L:63 a:47 b:65</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#eee9c7" x="147.5" y="327.5"></rect>
+    <text class="name" fill="#332424" x="147.5" y="327.5">
+      <tspan dx="60" dy="33">grey10soft</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="147.5" y="327.5">
+      <tspan dx="60" dy="66">#eee9c7</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="147.5" y="327.5">
+      <tspan dx="60" dy="84">L:92 a:-4 b:17</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#7c7066" x="267.5" y="327.5"></rect>
+    <text class="name" fill="#faf5d1" x="267.5" y="327.5">
+      <tspan dx="60" dy="33">grey4</tspan>
+    </text>
+    <text class="hash" fill="#faf5d1" x="267.5" y="327.5">
+      <tspan dx="60" dy="66">#7c7066</tspan>
+    </text>
+    <text class="lab" fill="#faf5d1" x="267.5" y="327.5">
+      <tspan dx="60" dy="84">L:48 a:3 b:7</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#695c55" x="387.5" y="327.5"></rect>
+    <text class="name" fill="#faf5d1" x="387.5" y="327.5">
+      <tspan dx="60" dy="33">grey3</tspan>
+    </text>
+    <text class="hash" fill="#faf5d1" x="387.5" y="327.5">
+      <tspan dx="60" dy="66">#695c55</tspan>
+    </text>
+    <text class="lab" fill="#faf5d1" x="387.5" y="327.5">
+      <tspan dx="60" dy="84">L:40 a:4 b:6</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#564844" x="507.5" y="327.5"></rect>
+    <text class="name" fill="#faf5d1" x="507.5" y="327.5">
+      <tspan dx="60" dy="33">grey2</tspan>
+    </text>
+    <text class="hash" fill="#faf5d1" x="507.5" y="327.5">
+      <tspan dx="60" dy="66">#564844</tspan>
+    </text>
+    <text class="lab" fill="#faf5d1" x="507.5" y="327.5">
+      <tspan dx="60" dy="84">L:32 a:5 b:5</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#443633" x="627.5" y="327.5"></rect>
+    <text class="name" fill="#faf5d1" x="627.5" y="327.5">
+      <tspan dx="60" dy="33">grey1</tspan>
+    </text>
+    <text class="hash" fill="#faf5d1" x="627.5" y="327.5">
+      <tspan dx="60" dy="66">#443633</tspan>
+    </text>
+    <text class="lab" fill="#faf5d1" x="627.5" y="327.5">
+      <tspan dx="60" dy="84">L:24 a:6 b:4</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#332424" x="747.5" y="327.5"></rect>
+    <text class="name" fill="#faf5d1" x="747.5" y="327.5">
+      <tspan dx="60" dy="33">grey0</tspan>
+    </text>
+    <text class="hash" fill="#faf5d1" x="747.5" y="327.5">
+      <tspan dx="60" dy="66">#332424</tspan>
+    </text>
+    <text class="lab" fill="#faf5d1" x="747.5" y="327.5">
+      <tspan dx="60" dy="84">L:16 a:7 b:3</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect width="120" height="100" fill="#d05100" x="867.5" y="327.5"></rect>
+    <text class="name" fill="#332424" x="867.5" y="327.5">
+      <tspan dx="60" dy="33">darkorange</tspan>
+    </text>
+    <text class="hash" fill="#332424" x="867.5" y="327.5">
+      <tspan dx="60" dy="66">#d05100</tspan>
+    </text>
+    <text class="lab" fill="#332424" x="867.5" y="327.5">
+      <tspan dx="60" dy="84">L:51 a:48 b:61</tspan>
+    </text>
+  </g>
+
+</svg>
