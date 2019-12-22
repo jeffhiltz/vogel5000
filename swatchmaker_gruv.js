@@ -3,7 +3,7 @@ const fs = require('fs')
 const yaml = require('js-yaml');
 
 const inputFile = 'colours.yaml'
-const outputFile = 'swatch36.svg'
+const outputFile = 'swatchgruvstyle_dark.svg'
 
 const fileContents = yaml.safeLoad(fs.readFileSync(inputFile, 'utf8'))
 const colours = fileContents.vogel5000
@@ -13,7 +13,93 @@ const swatchHeight = 100
 
 const borderWidth = (swatchWidth + swatchHeight) / 8
 
-const layout = [
+const gruvStyleDarkLayout = [
+  [
+    'grey0',
+    'red',
+    'green',
+    'yellow',
+    'blue',
+    'violet',
+    'cyan',
+    'grey6',
+  ],
+  [
+    'grey5',
+    'brightred',
+    'brightgreen',
+    'brightyellow',
+    'brightblue',
+    'brightviolet',
+    'brightcyan',
+    'grey9',
+  ],
+  [
+    'grey0hard',
+    'grey0',
+    'grey1',
+    'grey2',
+    'grey3',
+    'grey4',
+    'grey5',
+    'orange',
+  ],
+  [
+    '',
+    'grey0soft',
+    'grey6',
+    'grey7',
+    'grey8',
+    'grey9',
+    'grey10',
+    'brightorange',
+  ],
+]
+
+const gruvStyleLightLayout = [
+  [
+    'grey10',
+    'red',
+    'green',
+    'yellow',
+    'blue',
+    'violet',
+    'cyan',
+    'grey4',
+  ],
+  [
+    'grey5',
+    'darkred',
+    'darkgreen',
+    'darkyellow',
+    'darkblue',
+    'darkviolet',
+    'darkcyan',
+    'grey1',
+  ],
+  [
+    'grey10hard',
+    'grey10',
+    'grey9',
+    'grey8',
+    'grey7',
+    'grey6',
+    'grey5',
+    'orange',
+  ],
+  [
+    '',
+    'grey10soft',
+    'grey4',
+    'grey3',
+    'grey2',
+    'grey1',
+    'grey0',
+    'darkorange',
+  ],
+]
+
+const wideLayout = [
   [
     '',
     '',
@@ -87,6 +173,8 @@ const layout = [
     'grey10soft',
   ],
 ]
+
+const layout = gruvStyleDarkLayout
 
 const rowCount = layout.length
 const colCount = layout.map(row => row.length).reduce((acc, curr) => Math.max(acc, curr))
